@@ -6,7 +6,7 @@ var app = new alexa.app( 'SayMyNumber' );
 
 
 app.launch( function( request, response ) {
-	response.say( 'Welcome to Say Your Number' ).reprompt( 'Just say a number between one and one hundred' ).shouldEndSession( false );
+	response.say( 'Welcome to Say My Number' ).reprompt( 'Just say a number between one and one hundred' ).shouldEndSession( false );
 } );
 
 
